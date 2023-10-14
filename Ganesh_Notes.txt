@@ -1,4 +1,5 @@
 Python is an 'Interpreter'
+LEFT to RIGHT
 Interprets compiles each line of source code one by one. Adv. -  Easy to debug. 
 Compiler compiles the entire code by combining it as a package. If there is an error, it will just say it is an error rather than explaining about the type or location of the error.
 
@@ -30,17 +31,20 @@ Code inside the text editor - Source code
 File containing the source code - Source file 
 
 To run a python program, in command prompt, type "python" followed by the absolute location of the source file.
-*Absolute location is the complete location of the file.
+*Absolute path is the complete location of the file from the basic folder.
+*Relative path is the shorter file location path - which will be used in Linux
 
 Comments can be differentiated from the source code by using # in front of each comment line.
 Multi lines in a source code can be converted as comments by typing them between triple double quotes.
 
-PYTHON Console
---------------
+PYTHON codes can be run in IDE's (Integrated Development Environment)
+---------------------------------
 Example - IDLE (Integrated Development & Learning Environment) is where you can run python codes directly, without saving a python source file and running it separately.
 *We can convert Command Prompt to a python console by just entering "python" and Enter
 Console environment is denoted by '>>>' before each source code line.
 To come out of Console -> enter 'exit ()'
+
+*PyCharm is one such IDE
 
 GIT/GIT HUB
 -----------
@@ -50,3 +54,40 @@ Files saved in GIT HUB can be saved in local folders by using code "git clone" i
 This will create a live connection between local folder and GIT HUB location. "git pull" command can be used to refresh the files with latest changes.
 
 git pull TEST
+
+Note: Python codes should follow "PEP 8" (style guide) guidelines for better visualization of codes. Pycharm will indicate if our codes are not following PEP 8 guidelines.
+
+PYTHON
+======
+Data types - FOUR - String, Integer, Float, Boolean
+
+String - Anything that is entered with single or double quotes.
+Arguments - Entries inside the paranthesis.
+
+Example
+-------
+
+Positional Arguments - print ("Hello","World") will give the output "Hello World"
+"Hello" is the first argument' "World" is the second argument
+
+Keyword Arguments:
+1) sep - Indicates how each argument should be separated
+2) end - Indicates how the last argument should end.
+
+Special characters:
+Will work inside ' or " only.
+\n - new line
+\t - tab space
+
+Escapte Character - Used to break that character as an ending syntax character
+"\"
+print ("I'm learning Python") --> I'm learning Python
+print ('I\'m learnig "Python") --> I'm learning "Python"
+
+Note: Select the section of code with control and press '?' to change the selected code as Comments.
+
+
+
+"I'm"
+""learning""
+"""Python"""
