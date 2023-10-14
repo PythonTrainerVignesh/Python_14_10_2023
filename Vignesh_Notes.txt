@@ -1,1 +1,24 @@
-# Data Types
+# This is a comment
+# Source Code ---->> Source File
+
+# Language:
+
+# 1. Alpha Chars
+# 2. Dictionary (Python Modules) Lexis
+# 3. Syntax (learning I python am)
+# 4. Symantics (sense/meaning)
+
+# Low-level Language - Machine readable
+# High-level Language - User readable
+
+# Interpreter - Source code is open.
+# Easy to debug
+
+# Compiler - Source code is safe.
+
+# Modules come from 3 different places
+# 1. Python itself
+# 2. Third-party modules
+# 3. From your own code
+
+# Python is case sensitive
