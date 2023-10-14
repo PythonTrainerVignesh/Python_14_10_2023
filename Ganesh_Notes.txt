@@ -49,4 +49,4 @@ GIT has to be installed separately in Windows to execute GIT commands.
 Files saved in GIT HUB can be saved in local folders by using code "git clone" in command prompt/terminal.
 This will create a live connection between local folder and GIT HUB location. "git pull" command can be used to refresh the files with latest changes.
 
-
+git pull TEST
