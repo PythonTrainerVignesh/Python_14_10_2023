@@ -1,0 +1,37 @@
+Python is an 'Interpreter'
+Interprets compiles each line of source code one by one. Adv. -  Easy to debug. 
+Compiler compiles the entire code by combining it as a package. If there is an error, it will just say it is an error rather than explaining about the type or location of the error.
+
+Difference between Interpreter and Compiler --> Interpreter codes are risky. In compiler, codes are safe as it cannot be cracked easily.
+
+Low level language - Machine readable
+High level language - User readable 
+
+**Python is a high level language.
+***Python is CASE-SENSITIVE
+
+Any language for the matter should comprise of the following components:
+1) Alpha numeric characters
+2) Dictionary (Python modules) - LEXIS in Python
+3) Syntax 
+4) Symantics (should make sense/meaning)
+
+Modules:
+--------
+Modules come from THREE different places
+1) Python itself (from the installation)
+2) Third-party modules (from Github, python repository etc) - Invoke third party modules using 'pip' command. connected from the internet.
+3) From your own code
+
+
+Python programs can be created with a text editor and saving the file with extension .py
+
+Code inside the text editor - Source code
+File containing the source code - Source file 
+
+To run a python program, in command prompt, type "python" followed by the absolute location of the source file.
+*Absolute location is the complete location of the file.
+
+Comments can be differentiated from the source code by using # in front of each comment line.
+Multi lines in a source code can be converted as comments by typing them between triple double quotes.
+
