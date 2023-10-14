@@ -23,5 +23,14 @@
 
 # Python is case sensitive
 
-Example:
+# Example:
 print("Hello World")
+
+# For changing drives
+C: or D: or E:
+
+# To go backward from one folder to another
+cd ..
+
+# To list files and folders
+dir
