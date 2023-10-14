@@ -35,3 +35,18 @@ To run a python program, in command prompt, type "python" followed by the absolu
 Comments can be differentiated from the source code by using # in front of each comment line.
 Multi lines in a source code can be converted as comments by typing them between triple double quotes.
 
+PYTHON Console
+--------------
+Example - IDLE (Integrated Development & Learning Environment) is where you can run python codes directly, without saving a python source file and running it separately.
+*We can convert Command Prompt to a python console by just entering "python" and Enter
+Console environment is denoted by '>>>' before each source code line.
+To come out of Console -> enter 'exit ()'
+
+GIT/GIT HUB
+-----------
+GIT HUB is nothing but a cloud storage solution for the source codes/fies.
+GIT has to be installed separately in Windows to execute GIT commands.
+Files saved in GIT HUB can be saved in local folders by using code "git clone" in command prompt/terminal.
+This will create a live connection between local folder and GIT HUB location. "git pull" command can be used to refresh the files with latest changes.
+
+
