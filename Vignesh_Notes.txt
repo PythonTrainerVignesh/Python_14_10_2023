@@ -34,3 +34,30 @@ cd ..
 
 # To list files and folders
 dir
+
+# Data Types (String, Integer, Float, Boolean)
+
+# String
+print("Hello World.")
+print('Hello World.')
+print('987654321')
+print('True/False')
+
+# Positional Arguments
+print("Hello", "World.")
+
+# Keyword Arguments
+print("Hello", "World.", sep=' ', end='\n')
+print("Hello", "World.")
+
+# Special Chars
+print("Hello\tWorld")
+print("Hello\nWorld")
+print("I'm learning Python")
+
+# Escape Char
+print('I\'m learning "Python"')
+
+print("\"I'm\"", "\"\"learning\"\"", "\"\"\"Python\"\"\"", sep='\n')
+print('"' + "I'm" + '"', '""' + "learning" + '""', sep='\n')
+
