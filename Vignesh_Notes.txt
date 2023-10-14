@@ -22,3 +22,6 @@
 # 3. From your own code
 
 # Python is case sensitive
+
+Example:
+print("Hello World")
