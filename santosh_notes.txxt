@@ -50,5 +50,16 @@ DATATYPES (string, int, float, bool)
 
 print("hello", "world") - 2 positional arguments given inside print function
 
-KEYWORD ARGUMENTS OF PRINT FUNCTION
-sep= 
+2 - KEYWORD ARGUMENTS OF PRINT FUNCTION
+1. sep= Indicates how each argument should be separated
+2. end= Indicates how the last argument should end.
+
+Special characters:
+Will work inside ' or " only.
+\n - new line
+\t - tab space
+
+Escapte Character - Used to break that character as an ending syntax character
+"\"
+print ("I'm learning Python") --> I'm learning Python
+print ('I\'m learnig "Python"') --> I'm learning "Python"
