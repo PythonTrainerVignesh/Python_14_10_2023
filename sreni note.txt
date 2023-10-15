@@ -52,3 +52,10 @@ Escapte Character - Used to break that character as an ending syntax character
 "\"
 print ("I'm learning Python") --> I'm learning Python
 print ('I\'m learnig "Python"') --> I'm learning "Python"
+
+(oct-15)
+operators:7 types of opp (+,-,*,/,//,**,%)
+comparison o
+n = (input('Enter the number: '))
+print(int(n)>=100)
+
