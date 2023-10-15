@@ -1,6 +1,16 @@
 LANGUAGE 
 1. Alpha characters - characters for any language
-Dictionary (Lexis) - a verification modules of chars, words
-Syntax - grammer of any language
-symentics - the sense of a language which makes something meaningful
+2. Dictionary (Lexis) - a verification modules of chars, words
+3. Syntax - grammer of any language
+4. symentics - the sense of a language which makes something meaningful
+
+LOW LEVEL LANGUAGE - MACHINE, ASSEMBLY LANGUAGE
+It is a mchine readable(say binary language) - which is very close to the computer
+eg: C
+
+HIGH LEVEL LANGUAGE - PROGRAMMING, USER READABLE LANGUAGE
+It is commonly used for prgramming with use of compiler or an interpretor
+eg: python
+eg: Ruby - complicated high level language
+
 
