@@ -1,3 +1,5 @@
+GIT - google drive of codee / public repositary
+
 LANGUAGE 
 1. Alpha characters - characters for any language
 2. Dictionary (Lexis) - a verification modules of chars, words
@@ -18,5 +20,18 @@ LEFT to RIGHT
 Interprets compiles each line of source code one by one. Adv. -  Easy to debug. 
 Compiler compiles the entire code by combining it as a package. If there is an error, it will just say it is an error rather than explaining about the type or location of the error.
 Difference between Interpreter and Compiler --> Interpreter codes are risky. In compiler, codes are safe as it cannot be cracked easily.
+
+Python code can be saved as file name.py
+python code can be run in command prompt - by typing Python and giving the absolute path of file
+1. ABSOLUTE PATH - the entire path from the root direcctory - mostly used in WINDOWS
+2. RELATIVE PATH - path from certain folders - Mostly used in LINUX
+3. SOURCE CODE - the base code which need to executed
+4. source file - the file which contains the source code
+
+PYTHON MODULES come from
+1. Python itself
+2. Third party modules - using pip
+3. from your own code
+
 
 
