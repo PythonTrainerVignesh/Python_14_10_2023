@@ -1,0 +1,88 @@
+Data Types
+----------
+
+Integer - Whole numbers
+Floating Point integer - Decimal numbers
+
+Mathematical operation of 1 integer and 1 float will result in Float
+Division of 1 integer by 1 integer will also result in Flot
+
+BOOLEAN - True/False
+
+Operators
+---------
+Basic Operators - 7
+Comparison operators - 6
+
+Basic Operators
+---------------
+Operators -> +, -, /, *, **, %, //
+** - is at power of
+% - Modulus - Gives reminder. In a%b, if a is lesser than b, it always returns 'a'
+// - Floor division - Returns the answer as Integer (whole number) on Division
+
+**Python follows BODMAS
+
+Comparison Operators
+--------------------
+> , < , >=, <= , == , !=
+
+Output of comparison operator calculation will be Boolean (True or False)
+
+INPUT FUNCTION
+==============
+Argument of an input function is ALWAYS a String by default
+
+Example: 
+a= input ('Enter first no.')
+b= input ('Enter second no.')
+
+Output:
+Enter first no. 3
+Enter second no. 4
+34
+
+As data type of input is String
+
+To overcome this we have to convert the data type of argument with in the 'input' function to the desired data type.
+
+Example: 
+a= input ('Enter first no.')
+b= input ('Enter second no.')
+print(int(a) + int(b))
+
+Output:
+Enter first no. 3
+Enter second no. 4
+7
+
+Formatted String - Is invoked by adding 'f' before the quote of a print function argument.
+Example:
+name = 'Bob'
+print (f"(Hello {name}!)
+Output - Hello Bob!
+
+Curly braces are used inside a fomatted string within which we can use any type of variable or even function.
+Example: 
+a=5
+b=8
+print(f"Sum of {a} and {b} is {a+b})
+
+Output - Sum of 5 and 8 is 13
+
+METHODS
+-------
+Methods can be invoked by typing the variable name followed by .
+It will list out the methods that are available.
+
+Note: IF, ELSE, ELIF conditions end with :
+
+
+
+
+
+
+
+
+
+
