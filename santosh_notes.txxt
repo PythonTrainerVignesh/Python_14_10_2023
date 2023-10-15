@@ -13,4 +13,10 @@ It is commonly used for prgramming with use of compiler or an interpretor
 eg: python
 eg: Ruby - complicated high level language
 
+Python is an 'Interpreter'
+LEFT to RIGHT
+Interprets compiles each line of source code one by one. Adv. -  Easy to debug. 
+Compiler compiles the entire code by combining it as a package. If there is an error, it will just say it is an error rather than explaining about the type or location of the error.
+Difference between Interpreter and Compiler --> Interpreter codes are risky. In compiler, codes are safe as it cannot be cracked easily.
+
 
