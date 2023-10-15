@@ -48,7 +48,7 @@ To come out of Console -> enter 'exit ()'
 
 GIT/GIT HUB
 -----------
-GIT HUB is nothing but a cloud storage solution for the source codes/fies.
+GIT HUB is nothing but a cloud storage solution for the source codes/fies
 GIT has to be installed separately in Windows to execute GIT commands.
 Files saved in GIT HUB can be saved in local folders by using code "git clone" in command prompt/terminal.
 This will create a live connection between local folder and GIT HUB location. "git pull" command can be used to refresh the files with latest changes.
