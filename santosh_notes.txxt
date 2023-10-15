@@ -45,3 +45,10 @@ dir
 
 4. git clone - clones the files in repo to the local disk
 5. git pull - pulls the files in repo
+
+DATATYPES (string, int, float, bool)
+
+print("hello", "world") - 2 positional arguments given inside print function
+
+KEYWORD ARGUMENTS OF PRINT FUNCTION
+sep= 
