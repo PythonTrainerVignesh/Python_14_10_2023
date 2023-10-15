@@ -33,5 +33,15 @@ PYTHON MODULES come from
 2. Third party modules - using pip
 3. from your own code
 
+1. For changing drives
+C: or D: or E:
 
+2. To go backward from one folder to another
+cd ..
+cd - file path changes the directory
 
+3. To list files and folders
+dir
+
+4. git clone - clones the files in repo to the local disk
+5. git pull - pulls the files in repo
