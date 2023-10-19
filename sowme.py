@@ -74,7 +74,12 @@ example
 \t---> used for tab space
 \n---> used for next line
 
-#ESCAPE CHAR
+#ESCAPE CHAR:=
+Escapte Character - Used to break that character as an ending syntax character
+"\"
+  *print ("I'm learning Python") --> I'm learning Python
+  *rint ('I\'m learnig "Python") --> I'm learning "Python"
+
   
 
 
