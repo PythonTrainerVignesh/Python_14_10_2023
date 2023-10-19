@@ -18,5 +18,22 @@ LANGUAGE( 4 components)
   # syntax("eg:learning I python am")
   # symantics(sence/meaning)
 
-  
-  
+MODULES:
+Modules come from THREE different places
+  # Python itself (from the installation)
+  # Third-party modules (from Github, python repository etc) - Invoke third party modules using 'pip' command. connected from the internet.
+  # From your own code
+
+PEP: PYTHON ENHANCEMENT PROPOCALS
+  --->style guide for python code.
+
+#TO GO BACKWARDS FROM ONE FOLDER TO ANOTHER
+---> cd..
+#TO LIST FILES AND FOLDERS
+--->dir
+"git pull"---> the key word used to see the changes or updates what have they done.
+#FOR CHANGING THE DRIVES
+c: or d: or e: (enter)
+
+
+
