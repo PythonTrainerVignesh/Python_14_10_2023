@@ -53,12 +53,29 @@ Multi lines in a source code can be converted as comments by typing them between
 # DATA TYPES ( String,Integer,float,Boolean)
 
 #STRING:-
-  * anything which is under the double(") or single codes(')
+   *anything which is under the double(") or single codes(')
 example
   #print("hello")---->argument
   #print("897655578")
-  
 
+#POSITIONAL ARGUMENTS:-
+  print ("Hello","World") will give the output "Hello World"
+  "Hello" is the first argument' "World" is the second argument
+
+#KEYWORD ARGUMENTS:-
+  *print("hello","world",sep='')
+         #sep= used to seperate multiple arguments
+  *print("hello"."world",end='')
+         #end= how much ever arguments present in it , #end decides how the code as to end.
+
+#SPECIAL CHARACTER:-
+  *print("hello \t world")
+  *print("hello \n world")
+\t---> used for tab space
+\n---> used for next line
+
+#ESCAPE CHAR
+  
 
 
 
