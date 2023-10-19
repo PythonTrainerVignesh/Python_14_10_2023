@@ -80,8 +80,10 @@ Escapte Character - Used to break that character as an ending syntax character
   *print ("I'm learning Python") --> I'm learning Python
   *rint ('I\'m learnig "Python") --> I'm learning "Python"
 
-  
-
+1)---> print("\"I'm\"", "\"\"learning\"\"", "\"\"\"Python\"\"\"", sep='\n')
+       print('"' + "I'm" + '"', '""' + "learning" + '""', sep='\n')
+       output:=
+               
 
 
 
