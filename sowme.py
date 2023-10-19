@@ -12,4 +12,11 @@ High level language - User readable
 Python is a high level language.
 Python is CASE-SENSITIVE
 
+LANGUAGE( 4 components)
+  # alpha chars
+  # dictionary(python modules) or also called "LEXIX"
+  # syntax("eg:learning I python am")
+  # symantics(sence/meaning)
+
+  
   
