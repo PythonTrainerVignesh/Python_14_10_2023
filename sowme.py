@@ -35,5 +35,32 @@ PEP: PYTHON ENHANCEMENT PROPOCALS
 #FOR CHANGING THE DRIVES
 c: or d: or e: (enter)
 
+Python extension .py
+
+Code inside the text editor - Source code
+File containing the source code - Source file 
+
+To run a python program, in command prompt, type "python" followed by the absolute location of the source file.
+  # Absolute path is the complete location of the file from the basic folder.
+  # Relative path is the shorter file location path - which will be used in Linux
+
+Comments can be differentiated from the source code by using # in front of each comment line.
+Multi lines in a source code can be converted as comments by typing them between triple double quotes.
+
+# PYTHON codes can be run in IDE's (Integrated Development Environment)
+# PyCharm is one such IDE
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+# DATA TYPES ( String,Integer,float,Boolean)
+
+#STRING:-
+  * anything which is under the double(") or single codes(')
+example
+  #print("hello")---->argument
+  #print("897655578")
+  
+
+
+
+
 
 
