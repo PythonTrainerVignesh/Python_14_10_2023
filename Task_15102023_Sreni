@@ -4,3 +4,13 @@ total_apple = (john+marry+adam)
 print ('john'",""marry"','"adam")
 print("Total no of apple =",total_apple)
 ___________________________________________________________________
+Finding leap yr 
+year = input()
+if year > 1852:
+    if (year % 4 ==0) or (year % 100 == 0) and (year % 400 ==0):
+        print("{0} is a leap year".format(year))
+    else:
+        print("{0} is common year".format(year))
+else:
+    print("Not within the gregorian cal periods")
+________________________________________________________________________
