@@ -1,1 +1,6 @@
-
+Creating variables and performing various arithmetic opp
+john = 3;marry = 5;adam = 6
+total_apple = (john+marry+adam)
+print ('john'",""marry"','"adam")
+print("Total no of apple =",total_apple)
+___________________________________________________________________
