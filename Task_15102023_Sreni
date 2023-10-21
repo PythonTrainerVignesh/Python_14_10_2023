@@ -15,7 +15,7 @@ else:
     print("Not within the gregorian cal periods")
 ________________________________________________________________________
 Finding Tax
-income = 10000
+income = input()
 if income <= 85528:
     tax = (income *.18) - 556.02
     tax = round(tax)
@@ -24,3 +24,16 @@ else:
     tax = round(tax)
 print ("Tax =",tax ,"thalers")
 ____________________________________________________________________________
+Solving the expression
+x = input()
+y = 1/(x+(1/(x+(1/(x+(1/(x+(1/x))))))))
+print("Y = ",y)
+___________________________________________________________________________
+Solving the expression
+x = input()
+y = 3*(x**3)-2*(x**2)+3*(x**1)-1
+y = float(y)
+print ("Y =", y)
+________________________________________________________________________
+
+
