@@ -14,3 +14,13 @@ if year > 1852:
 else:
     print("Not within the gregorian cal periods")
 ________________________________________________________________________
+Finding Tax
+income = 10000
+if income <= 85528:
+    tax = (income *.18) - 556.02
+    tax = round(tax)
+else:
+    tax = (income - 85528) *.32 + 14839.02
+    tax = round(tax)
+print ("Tax =",tax ,"thalers")
+____________________________________________________________________________
