@@ -1,1 +1,18 @@
 day_3 
+nested if else statements
+
+loops - are used for repeaing an action
+WHILE
+while a condition is true the  loop will run,
+or untill the condition is false  the loop runs
+
+BREAK
+to stop when the condition is ssatisfied breaak is  used under the required condition.
+
+### print 2 tables using while loop.
+### implenent collatz idea and print the number of steps (different and interesting logic)
+### number of 'p' s in spathiphyllum or number of 's' in mississipi
+### print whether a number is prime or not
+### print range of prime numbers
+
+
