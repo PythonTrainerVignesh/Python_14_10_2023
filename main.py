@@ -72,12 +72,21 @@ else:
 # else:
 #     print(f"{year} is a common year")
 
-year = input("Enter a year: ")
-if (int(year) % 4 == 0 + int(year) % 100 != 0) or (int(year) % 400 == 0):
-    print("leap year")
-else:
-    print("common year")
+# year = input("Enter a year: ")
+# if (int(year) % 4 == 0 + int(year) % 100 != 0) or (int(year) % 400 == 0):
+#     print("leap year")
+# else:
+#     print("common year")
 
+
+income = input("Enter your income in thalers: ")
+if float(income) <= 85528:
+    tax = (flot(income) * 0.18) - 556.02
+else:
+    tax = 14839.02 + (0.32 * (float(income) - 85528))
+if tax < 0:
+    tax = 0
+print(f"The tax is: {round(tax)}.0 thalers")
 
 
 
