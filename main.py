@@ -58,9 +58,25 @@ else:
 
 
 
+# john = 3
+# mary = 5
+# adam = 6
+# print(f'{john},{mary},{adam}')
+# total_apples = john + mary + adam
+# print(f'Total number of apples: {total_apples}')
 
 
+# year = 1996
+# if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#     print(f"{year} is a leap year")
+# else:
+#     print(f"{year} is a common year")
 
+year = input("Enter a year: ")
+if (int(year) % 4 == 0 + int(year) % 100 != 0) or (int(year) % 400 == 0):
+    print("leap year")
+else:
+    print("common year")
 
 
 
