@@ -35,15 +35,15 @@
 #     print(f"Spathiphyllum! Not {a}!")
 
 
-income = float(input("What is your income? "))
-if income < 85528:
-    tax = (income*0.18) - 555.98
-    if tax <=0:
-        print("Zero tax")
-    else:
-    print(f"The tax is : {round(tax, 0)} Thalers")
-else:
-    print('High income')
+#income = float(input("What is your income? "))
+#if income < 85528:
+#    tax = (income*0.18) - 555.98
+#    if tax <=0:
+#        print("Zero tax")
+#    else:
+#    print(f"The tax is : {round(tax, 0)} Thalers")
+#else:
+#    print('High income')
 # else:
 #     tax = 14839.02 + ((85528 - income) * 0.32)
 #     if tax <= 0:
