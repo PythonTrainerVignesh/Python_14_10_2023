@@ -35,6 +35,21 @@ Example: nos_dict = {'uname' : 'Ganesh', 'passwrd' = 12345'}
 *key comes at left and value comes at right
 *key always should be a string, value can be of any data type
 
+NOTE:
+=====
+break - Breaks the loop/intended block
+continue - move to the next iteration
+pass - pass the code to next line.
+
+Note:
+-----
+Multiple variables can be assinged in python.
+a=1
+b=2
+c=3
+is also equal to
+a,b,c = 1,2,3
+
 
 
 
