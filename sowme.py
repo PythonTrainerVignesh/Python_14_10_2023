@@ -174,12 +174,108 @@ result = round(a, 2)
 print(a, result)
 
 # Index no and Slicing
+  a = 'asdasfsdgdfgdfhdfhg'
+  print(a[1])
+  # a[start:stop:step]
+  print(a[3] == 'i')
+  print(len(a))
+  print(a[:len(a)//2])
 
-a = 'asdasfsdgdfgdfhdfhg'
+28/10/2023
+  #END TIME PRLM
+# hours=int(input("starting time(hours):"))
+# mins=int(input("starting time(mins):"))
+# dura=int(input("event duration:"))
+# # time_hour=(hours+dura//60+(mins+dura%60)//60)%24
+# # time_min=(mins+dura%60)%60
+# # print("it will end at"+str(time_hour)+":"+str(time_min))
+#
+# left=((hours*60+mins+dura)//60)%24
+# right=(mins+dura)%60
+# print(left,right,sep=':')
 
-print(a[1])
-# a[start:stop:step]
-print(a[3] == 'i')
-print(len(a))
-print(a[:len(a)//2])
+# while true:
+#     uname=input("enter ur username:")
+#     if uname=='admin':
+#         passwrd=input("enter ur passwrd:")
+#         if passwrd=='admin':
+#             otp=input("enter otp:")
+#             if otp=="1234":
+#                 print("login sucessful")
+#                 break
+#             else:
+#                 print("incorrect otp.try again")
+#         else:
+#             print("incorrect password.try again")
+#     else:
+#         print("incorrect uname.try again")
+#
+# #GUESSING GAME EXAMPLE
+# no=777
+# while true:
+#     answer=input('guess')
+#     if int(answer)==no:
+#         print('correctly guessed')
+#         break
+#     else:
+#         print('incorrectly guessed.Try again')
+#
+# no=0
+# while no<100:
+#     no=no+1
+
+# no=0
+# while no<24:
+#     no=no+1
+#     if no%2==0:
+
+
+# no=0
+# while no<12:
+#     no=no+1
+#     print(f"2 x {no}= {no*2}")
+
+# word='mississppi'
+# count=0
+# start=0
+# stop=len(word)
+# while start < stop:
+#     if word[start]=='s':
+#         count=count+1
+#     start=start+1
+# print(count)
+
+count=0
+while count<3:
+    count=count+1
+    uname=input('username:')
+    if name=='admin':
+        count=0
+        count_passwrd=0
+        while count_passwrd<3:
+            count_passwrd=count_passwrd+1
+            passwrd=input('passwrd')
+            if passwrd=='admin':
+                print("login sucessfully")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 
