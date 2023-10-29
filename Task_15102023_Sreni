@@ -210,6 +210,16 @@ while i <=100:
         print(i,end=',')
     i = i+1
 ____________________________________________________________________
-
+a = "catdogcatdogdd"
+# c = 0
+# d = 0
+# for i in range (len(a)-1):
+#     if a[i] == "c" and a[i+1] == "a" and a[i+2] == "t":
+#         c=c+1
+#     if a[i] == "d" and a[i+1] == "o" and a[i+2] == "g":
+#         d=d+1
+#         print("true")
+#     else:
+#         print("false")
 
 
