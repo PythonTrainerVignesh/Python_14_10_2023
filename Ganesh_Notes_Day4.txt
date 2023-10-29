@@ -1,0 +1,40 @@
+For Loop
+--------
+Follows the same syntax as if or while.
+The for loop does not require an indexing variable to set beforehand.
+
+Example: 
+word = Mississippi
+for i in word
+  if i == 's'
+    count += 1
+print(count)
+
+Output --> 4
+
+**For loops are used when there can be an interation.
+For example, word (in string) can be iterated as each character
+number can be iterated as range.
+
+COLLECTION OF OBJECTS - For the purpose of grouping
+---------------------
+If multiple values are assigned to a single variable inside paranthesis, then it is called a "tuple"
+These are also known as "Immutable"
+Example: nos = (1,2,3) 
+If multiple values are assigned to a single variable inside square bracket, then it is called a "list"
+These are known as "Mutable"
+Example: nos = [1,2,3]
+
+Difference between 'Mutable' and 'Immutable' - Immutables cannot be altered.
+
+Multiple variables can be assigned in "dictionary". Curly braces are used  for dictionary.
+Dictionary is mutable ie. can be altered.
+
+'Key' and 'value' pairs
+Example: nos_dict = {'uname' : 'Ganesh', 'passwrd' = 12345'}
+*key comes at left and value comes at right
+*key always should be a string, value can be of any data type
+
+
+
+
