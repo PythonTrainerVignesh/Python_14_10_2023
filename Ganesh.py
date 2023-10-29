@@ -162,6 +162,85 @@
 # print(f'Number of "p" in {a} = {c}')
 
 
-##Find if a number is prime or not
+##Find all prime numbers from 1 to 100
+
+# a = 2
+# i = 2
+# c = 0
+# while a < 100:
+#     print(a)
+#     while i < a:
+#         if a % i == 0:
+#             break
+#         i += 1
+#     print(a)
+#     a +=1
+
+
+# Remove dupes from list1 and create a new list2
+# list1 = [3,6,2,1,4,3,6,4,3,7]
+# list2 = []
+# for i in list1:
+#     if i in list2:
+#         continue
+#     list2.append(i)
+# print(list2)
+
+# Sort the numbers in a list in descending order
+# Bubble sort technique - Swap the values between two variables or two positions in a list.
+
+# list1 = [1,2,5,6,7]
+# for j in list1:
+#     for i in range(len(list1)-1):
+#         if list1[i] < list1[i+1]:
+#             list1[i+1], list1[i] = list1[i], list1[i+1]
+# print(list1)
+
+# If input is AAbb, output should be "AAAAbbbb" - each character to be printed twice
+# a = 'AAbb'
+# for i in a:
+#     print(i*2,end='')
+
+
+# Find number of instances 'hi' is present in a word
+
+# a = 'abcihhi hohi'
+# c = 0
+# for i in range(len(a)):
+#     if a[i] == 'h' and a[i + 1] == 'i':
+#         c += 1
+# print(c)
+
+# Find number of times 'cat' and dog' in a string and return 'True' if their number is same
+
+# a = 'catdogzzzdogcat'
+# c = 0
+# d = 0
+# for i in range(len(a)):
+#     if a[i] == 'c' and a[i+1] == 'a' and a[i+2] == 't':
+#         c += 1
+#     if a[i] == 'd' and a[i+1] == 'o' and a[i+2] == 'g':
+#         d += 1
+# if c == d:
+#     print("True")
+# else:
+#     print("False")
+#
+
+a = 'Hiabc'
+b = 'aBc'
+
+a.lower()
+b.lower()
+
+print(a)
+print(b)
+
+
+
+
+
+
+
 
 
