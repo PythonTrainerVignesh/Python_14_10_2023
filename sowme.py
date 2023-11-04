@@ -258,7 +258,124 @@ while count<3:
             if passwrd=='admin':
                 print("login sucessfully")
 
+nos_tuple=(1,2,3) #cannot be modified-immutable
+nos_list[1,2,3] #mutable
+nos_dict={
+'subject':'python'
+'dept':'it'
+'roll.no':229
+'marks':[88,89,78,78,90]
+'x':{3,4,5,6}
+}
+#key:values pairs
 
+#iterate_one by one
+name='I am learning python'
+no=0
+while true:
+print(name[no])
+no=no+1
+if no>len(name)-1
+break
+
+#for loop
+for i in name:
+print(i)
+
+example1:
+nos=[]
+for i in range(51):
+    if i % 2==0:
+        nos.append(i)
+print(nos)
+
+example2:
+nos=[]
+for i in range(5,51,5):
+    nos.append(i)
+print(nos)
+
+example3:
+name='I am learning python'
+for i in name:
+    if i==' ':
+         continue
+    else:
+         print(i,end='')
+#output:
+Iamlearningpython
+
+example4:
+# count=0
+# nos=[]
+# while True:
+#     count=count+1
+#     nos.append(count)
+#     if count==50:
+#         break
+# print(nos)
+
+example5:
+# count=0
+# nos=[]
+# while True:
+#     count=count+5
+#     nos.append(count)
+#     if count==50:
+#         break
+# print(nos)
+
+example6:
+word='the'
+for i in word:
+    print(i*2,end='')
+    #output
+    tthhee
+
+example7:    
+#Program to count the word python
+word='I Python am learning Python'
+count=0
+for i in range(len(word)-5):
+     a= word[i] + word[i+1] + word[i+2] + word[i+3] + word[i+4] + word[i+5]
+     if a=='Python':
+        count=count+1
+print(count)
+
+example8: count even number from the list
+count=0
+count_evens=[2,1,2,3,4]
+for i in count_evens:
+      if i%2==0:
+          count=count+1
+print(count)
+#output:3
+----------------------------------------------------------------------------------------------------------------------------------
+FUNCTIONS
+#def a keyword - definition
+#we can reuse the code by functions
+EXAMPLE
+def adding(a,b,d):
+   c=a+b+d
+   print(c)
+adding(6,8,9)
+
+def greeting(name):
+    print("welcome",name+'.')
+greeting(sowme)
+
+def uname_gen(fname,lname):
+  print(fname+'.'+lname)
+  print(fname+'.'+lname[0])
+  print(fname[0]+'.'+lname)
+  print(fname[0]+lname)
+  print(fname+lname[0])
+
+def greeting(name):
+  return 'welcome'+ name+'.'
+print(greeting('kamal'))
+#OUTPUT
+welcome kamal.
 
 
 
