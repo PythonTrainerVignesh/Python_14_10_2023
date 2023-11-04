@@ -1,3 +1,4 @@
+
 Creating variables and performing various arithmetic opp
 john = 3;marry = 5;adam = 6
 total_apple = (john+marry+adam)
@@ -240,4 +241,12 @@ def speeding(speed, is_birthday):
             return 1
         elif speed > 85:
             return 2
+___________________________________________________________________________________________
+Given 2 ints, a and b, return their sum. However, sums in the range 10..19 inclusive, are forbidden, so in that case just return 20.
+
+def sorta_sum(a, b):
+    total = a + b
+    if 10 <= total <= 19:
+        return 20
+    return total
 
