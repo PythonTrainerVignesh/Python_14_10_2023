@@ -226,18 +226,62 @@
 # else:
 #     print("False")
 #
+#
+# a = 'Hiabc'
+# b = 'aBc'
+#
+# a.lower()
+# b.lower()
+#
+# print(a)
+# print(b)
+#
 
-a = 'Hiabc'
-b = 'aBc'
+# Return the number of even ints in the given array. Note: the % "mod" operator computes the remainder, e.g. 5 % 2 is 1.
+#
+# count_evens([2, 1, 2, 3, 4]) → 3
+# count_evens([2, 2, 0]) → 3
+# count_evens([1, 3, 5]) → 0
+#
+# ls = [1,2,3,4,5,6,7,8,9,10]
+# c = 0
+# for i in ls:
+#     if i%2 == 0:
+#         c +=1
+# print(c)
+#
+#
+# Given an array length 1 or more of ints, return the difference between the largest and smallest values in the array. Note: the built-in min(v1, v2) and max(v1, v2) functions return the smaller or larger of two values.
+#
+# big_diff([10, 3, 5, 6]) → 7
+# big_diff([7, 2, 10, 9]) → 8
+# big_diff([2, 10, 7, 2]) → 8
 
-a.lower()
-b.lower()
+# ls = [7,2,10,9]
+# for i in range(len(ls)-1):
+#     if ls[i] < ls[i+1]:
+#         continue
+#     else:
+#         ls[i+1],ls[i] = ls[i],ls[i+1]
+# print(ls)
+# print(ls[len(ls)-1]-ls[0])
 
-print(a)
-print(b)
-
-
-
+#Open file, read, process, add processed data
+#
+# import csv
+# with open('data.csv','r') as f:
+#     x = csv.DictReader(f)
+#     with open('data.csv','w',newline='') as file:
+#         for i in x:
+#             price, quantity = i.get('price'), i.get('quantity')
+#             total_price = int(price)* int(quantity)
+#             a = csv.DictWriter(file,['name','price','quantity','total_price'])
+#             a.writerow({
+#                 'name':i['name'],
+#                 'price':i['price'],
+#                 'quantity': i['quantity'],
+#                 'total_price': str(total_price)
+#             })
 
 
 
