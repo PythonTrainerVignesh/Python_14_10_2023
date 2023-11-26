@@ -222,3 +222,28 @@ print(int(n)>=100)
 #         c += 1
 #     i += 1
 # print(f'Number of "p" in {a} = {c}')
+Read a file using python
+------------------------
+r = read; a = append; w = write
+
+Syntax --> with open('abcd.xls', 'r') as file:
+File opened in Python always comes in as 'String'
+File opened in Python should be assigned to a variable
+
+Example:
+
+import csv (csv is a pre-defined third party module available for python. This gives the method 'DictReader')
+with open('data.csv','r') as file:
+  x = csv.DictReader(file)
+  for i in x:
+    print(i)
+
+This block of code imports the csv file - data.csv. Transforms the rows and columns as 'Dictionary' (Key value pairs)
+
+To add rows in a Excel/csv: 
+---------------------------
+with open('data.csv','a',newline='') as file:
+a = csv.DictWriter(file, ['name','price','quantity'])
+a.writerow({'name':'mobile','quantity':'2'})
+
+**PLAY AROUND with PYTHON SCRAPY - to understand more about data gathering
