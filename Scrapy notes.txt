@@ -1,0 +1,16 @@
+response.xpath("/html/body/div/div[2]/div[1]/div[1]/span[1]/text()").get()
+response.xpath("/html/body/div/div[2]/div[1]/div[2]/span[1]/text()").get() 
+
+
+Response codes:
+1xx - Informational messages (99%)
+2xx - OK
+3xx - Redirect
+4xx - Client-side error
+5xx - Server-side error
+
+To convert data to text in 'xpath' use /text() at the end
+To convert data to text in 'css' use ::text at the end
+
+get() - returns the first element of the selection as a string
+getall() - returns all the elements of the selection as a list
