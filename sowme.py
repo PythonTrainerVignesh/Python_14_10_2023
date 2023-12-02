@@ -376,6 +376,39 @@ def greeting(name):
 print(greeting('kamal'))
 #OUTPUT
 welcome kamal.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+SIMPLE WAY TO HANDLE A FILE:-
+for i in range(1,10):
+              #write-w , read=r , append=a
+with open('notes.txt','a')-->#file name# as file:
+file.write(str(i)='\n')
+
+TO READ A FILE
+data=[]
+with open('notes.txt','r')as file:
+a=file.read()
+print(a)
+OUTPUT: will be in list
+
+for i in a 
+b=i.strip()
+print(b)
+OUTPUT: will be in string
+
+b=i.strip()
+data.append(int(b))
+print(data)
+OUTPUT:will be in integer
+
+with open('notes.txt','r')as file:
+a=file.readline()
+data=list(map(int,a))
+print(data)
+OUTPUT:[1,2,3,4,........,100]
+
+#CRUD--> create,read,update,delete
+
+
 
 
 
