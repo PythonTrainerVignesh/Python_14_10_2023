@@ -1,0 +1,24 @@
+class
+is a blue print
+
+INSTANCE - a copy of a class  --- important definition
+FUNCTION inside a class is called as a method 
+MAGIC/ SPECIAL METHODS - __ double underscore functions are called magic methods
+INIT - 
+CONSTRUCTOR - 
+class level arguments, or class level variable
+what are constructors and what are destructors
+
+DECORATERS - class method and static method
+
+why do you use init methodd
+how do you define the datatype
+how to validate(assert)
+
+
+class Students
+# variable name = class name(copy of class)
+student1 = students()
+student1.name = ...
+student1.course - ...
+student1.phone = ...
