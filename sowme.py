@@ -434,7 +434,113 @@ data=read_from_a_file(file path)
 for i in data:
     file_append('\n'+str(i))
 file_read()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLASS:-
+  #To reduce the repeatation of code in fucntions---->class
+  #In class we have to use camel case
+  #Eg:- Class ReportCard
+  # A copy of a class is called instance
+  # class is a blueprint
 
+  class Student:
+    # A fuction inside a class is called 'METHOD'
+    def name(self,name):
+        return name
+    def course(self,course):
+        return course
+    def phone(self,phone):
+        return phone
+    def email(self,email):
+        return email
+    def student_contact(self):
+        return self.name,self.phone
+
+
+#instance
+student1=student()
+student1.name='rajini'
+student1.course='python'
+student1.phone=99990009999
+student1.email='rajini12@gmail.com'
+
+student2=student()
+student2.name='kamal'
+student2.course='python'
+student2.phone=77777888888
+student2.email='kamal34@gmail.com'
+
+print(student1.student_contact())
+print(student2.student_contact())
+--------------------------------------------
+class Students:
+#contructors,magic methods
+    def __init__(self,name):
+        self.name=name
+        self.email=email
+        self.phone=phone
+    def username(self):
+        return self.name+self.email[0:4]
+#instance
+student1=students('rajini', 'rajini@gmail.com', 7777777777)
+student2=student('kamal', 'kamal@gmail.com', 8888888888)
+
+print(student1.name)
+print(student1.username())
+print(student2.name)
+print(student2.username())
+-------------------------------------
+class Products:
+    all=[]
+    discount=0.8
+    def __init__(self,name,price,quantity):
+        self.name=name
+        self.price=price
+        self.quantity=quantity
+
+        Products.all.append(self.name)
+
+    def total_price(self):
+        return self.price+self.quntity
+    def discounted_price(self):
+        return run Products.total_price(self)*Products.discount
+    #Another magic keyword used to create ur own representation on how ur products what to display
+    def __repr__(self):
+        return f"Products('{self.name},{self.price},{self.quantity})"
+
+mobiles=Products('samsung',10000,3)
+computers=Products('apple',30000,4)
+laptops=Products('lenovo',8000,7)
+for i in Products.all:
+    print(i)
+
+print(mobiles.discounted_price())
+----------------------------------------------
+class Products:
+    all=[]
+    discount=0.8
+    def __init__(self,name,price,quantity):
+       * assert price>=0,f"{price}is less than 0"
+       *assert quantity>=0 f"{quantity}is less than 0"
+       *assert len(name)>2 f"{name}is less than 0"
+        self.name=name
+        self.price=price
+        self.quantity=quantity
+
+        Products.all.append(self.name)
+
+    def total_price(self):
+        return self.price+self.quntity
+    def discounted_price(self):
+        return run Products.total_price(self)*self.discount
+    #Another magic keyword used to create ur own representation on how ur products what to display
+    def __repr__(self):
+        return f"Products('{self.name},{self.price},{self.quantity})"
+
+mobiles=Products('samsung',10000,3)
+computers=Products('apple',30000,4)
+laptops=Products('lenovo',8000,7)
+
+  
 
 
 
