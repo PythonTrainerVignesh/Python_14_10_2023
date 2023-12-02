@@ -296,3 +296,6 @@ assert = is to check the condition Syntax = {assert conditon validation}
 assert price >=0, f"{price} is less than 0"
 
 @classmethod = > decorators 
+
+
+
