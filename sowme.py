@@ -408,6 +408,34 @@ OUTPUT:[1,2,3,4,........,100]
 
 #CRUD--> create,read,update,delete
 
+def file_read():
+    try:
+        with open('data.csv','r')as file:
+            a=file.read()
+            print(a)
+    except FileNotFoundError:
+        print("error 0*001:input file doesn't exit")
+def file_write(data):
+    with open('data,csv','w')as file:
+        file.write(data)
+def file_append(data):
+    with open('data.csv','a')as file:
+        file.write(data)
+def read_from_a_file(file):
+    with open('file','r')as file:
+        a=file.readlines()
+        data=list(map(int a))
+        return data
+file_write('this is the first line')
+file_read()
+file_append('\n this is the second line')
+file_read()
+data=read_from_a_file(file path)
+for i in data:
+    file_append('\n'+str(i))
+file_read()
+
+
 
 
 
