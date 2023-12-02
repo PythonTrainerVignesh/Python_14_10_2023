@@ -1,0 +1,45 @@
+Functions
+---------
+Functions are used when we want to execute a block of code repeatedly, without actually copy pasting the code again and again.
+
+Functions are defined with syntax "def function name():"
+**Function names are always used in lower case.
+
+Functions can be called by the function name.
+
+Example:
+def sum_of_2_nos(x,y):
+    return x + y
+
+x = sum_of_2_nos(5,10)
+print(x)
+
+Output = 15
+
+Difference between print and return -  Print overwrites the value upon program run and shows it as output.
+Return saves the value of the inputs rather than just showing it as an output.
+
+Class
+-----
+If multiplie functions are required to be re-used then they can be defined under a "Class"
+Class is a group of functions.
+
+Class name should be of Camel case (capitalize each word).
+Class is a blueprint.
+**Copy of a class is called "INSTANCE"
+
+**Function inside a class is called "METHOD"
+
+If a method starts and ends with "__name__ " with double underscore it calld a magic method/special method. Also called as 'Constructors'
+
+-Magic method - __repr__
+
+-Class level variables
+-Assertion - is used for validation. Syntax - "assert condition, Processing/Message"
+
+- Difference between constructors and destructors
+
+- Decorators
+
+
+
