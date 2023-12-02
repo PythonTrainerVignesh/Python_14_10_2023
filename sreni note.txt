@@ -247,3 +247,52 @@ a = csv.DictWriter(file, ['name','price','quantity'])
 a.writerow({'name':'mobile','quantity':'2'})
 
 **PLAY AROUND with PYTHON SCRAPY - to understand more about data gathering
+
+Class
+Creating a class:
+class Student:
+  pass
+#class - contains mltiple of functions
+#Instance - having a copy of class
+#Methode - function inside the class is known as methode
+#Constructors - a special method that is called when an object is created
+class Student:
+  def name (self, name)
+    return name
+  def phone (self, phone)
+    return phone
+  def course (self, name)
+    return course
+
+#Instance
+s1 = Student()
+s1.name = "Rajini"
+s1.phone = 3333333
+s1.course = "Python"
+
+-----------------------------------------
+class Std:
+
+  def __init__(self, name,emial,phone) ->(Arguments)
+object <- self.name = name
+          self.email = email
+          self.phone = phone
+  def username(self):
+    return self.name + self.email[0:2]
+
+s1 = Std ('Raj", 'rajj@gmail.com',333333333)
+s2 = Std ('taj", 'tajj@gmail.com',4444443333)
+
+print (s1.name)
+print (s1.email)
+#create an empty list
+all = []
+#to add all the instance in the list to process
+Product.all.append(self)
+def __str__(self):
+  return f"Products('{self.name}',{self.price},{self.quantity})"
+
+assert = is to check the condition Syntax = {assert conditon validation}
+assert price >=0, f"{price} is less than 0"
+
+@classmethod = > decorators 
