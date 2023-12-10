@@ -285,7 +285,7 @@ s2 = Std ('taj", 'tajj@gmail.com',4444443333)
 
 print (s1.name)
 print (s1.email)
-#create an empty list
+#create an empty listh
 all = []
 #to add all the instance in the list to process
 Product.all.append(self)
@@ -296,6 +296,32 @@ assert = is to check the condition Syntax = {assert conditon validation}
 assert price >=0, f"{price} is less than 0"
 
 @classmethod = > decorators 
+
+Oops..,
+4 pillars of class
+Inheritance , encapsulation, polymorphism, abstraction.
+
+Inheritance - inherit from parent class to child class.
+
+Eg : class child_name (Parentfunction):
+any changes in parent class reflect in child.
+
+representation method - "__repr__" - use self to get the specific instance.
+
+5 inheritance - Single,Multi levl, Multiple,hybrid,hierarchical
+
+encapsulation - process of hiding the implementation details of an class or object.
+Private - will not show or hidable 
+Protector - read only
+
+use "_" - used in protector _name_
+use "__" - used in private  __name__
+
+getter/setter - used to asign new value for protector
+
+abstraction - the process of hiding the internal details of an application from the outer world.
+
+print (Classname,__dict__) -> to see that the class contains
 
 
 
