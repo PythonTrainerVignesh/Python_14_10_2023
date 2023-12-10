@@ -1,0 +1,47 @@
+Pillars/Principles - 4
+Inheritance
+Polymorphism
+Encapsulation
+Abstraction
+
+class Abc(Xyz)
+
+- In this case, 'Xyz' is called parent class; 'Abc' is called child class.
+The attributes, methods from the parent class can be incorporated in the child class.
+
+- Multiple parent class can be used inside the paranthesis.
+
+-Changes made in parent class will be available to all child classes but the vice versa is not applicable.
+
+Super class?
+
+- 5 types of Inheritance
+
+Encapsulation
+-------------
+Restriction of access of methods/variables in a class is called Encapsulation.
+
+1)Protected member/attribute - indicated by single underscore.
+2)Private member/attribute - indicated by double underscore.
+
+Restriction can be done by "@property" decorator.
+
+property decorators are used for read-only attributes.
+
+**Decorators are used before defining a function.
+
+If we need to change any private member, then we have to use 'setters' and 'getters'
+
+syntax - @attribute.setter
+
+
+Abstraction
+-----------
+Even when we know the background of a module/class but if we are still able to exceute it , it is called Abstraction.
+
+Example - csv module
+
+**To view all the methods, attributes, variables in a class, we can use the magic method "__dict__"
+
+
+
